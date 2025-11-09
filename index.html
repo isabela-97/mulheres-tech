@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mulheres que Mudaram a História da Tecnologia</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      background-color: #ffffff;
+      color: #111;
+      text-align: center;
+    }
+
+    header {
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+      color: #ff7a00;
+      margin-bottom: 15px;
+    }
+
+    .intro {
+      max-width: 850px;
+      margin: 0 auto 40px auto;
+      padding: 0 20px;
+      text-align: justify;
+      color: #111;
+    }
+
+    .intro p {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+
+    .intro strong {
+      color: #ff7a00;
+    }
+
+    .intro .final {
+      font-style: italic;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 40px 20px;
+    }
+
+    .card {
+      background: #fff;
+      border: 2px solid #111;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      width: 280px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    }
+
+    .card img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+      border-radius: 15px 15px 0 0;
+      border-bottom: 3px solid #ff7a00;
+    }
+
+    .info {
+      padding: 15px;
+    }
+
+    .info h2 {
+      margin: 8px 0;
+      font-size: 1.2rem;
+      color: #000;
+    }
+
+    .info p {
+      margin: 0;
+      color: #ff7a00;
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+
+    .btn {
+      margin-top: 10px;
+      background-color: #ff7a00;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #111;
+    }
+
+    .quote {
+      font-style: italic;
+      margin: 20px auto;
+      font-size: 1rem;
+      color: #000;
+      max-width: 700px;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #333;
+    }
+
+    footer a {
+      color: #ff7a00;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>💻 Mulheres que Mudaram a História da Tecnologia</h1>
+  </header>
+
+  <section class="intro">
+    <p>A tecnologia que conhecemos hoje só existe graças à genialidade e à coragem de mulheres que desafiaram seu tempo e abriram portas para o futuro. <strong>Ada Lovelace</strong>, no século XIX, foi uma verdadeira visionária — ela escreveu o primeiro algoritmo da história, se tornando a primeira programadora do mundo e imaginando que as máquinas poderiam fazer muito mais do que simples cálculos.</p>
+
+    <p>Anos depois, <strong>Grace Hopper</strong> mostrou que a programação podia ser compreendida por todos. Criou o primeiro compilador, que traduziu a linguagem humana para a linguagem dos computadores, e ajudou a desenvolver o COBOL, uma das linguagens mais usadas até hoje. Seu trabalho transformou a forma como interagimos com a tecnologia.</p>
+
+    <p>E quem diria que uma estrela de cinema também mudaria o mundo digital? <strong>Hedy Lamarr</strong>, além de brilhar em Hollywood, inventou um sistema de comunicação que se tornou a base do Wi-Fi, do Bluetooth e do GPS.</p>
+
+    <p class="final">Essas três mulheres incríveis provaram que criatividade, curiosidade e coragem podem mudar o mundo — e que o lugar da mulher é onde ela quiser, inclusive no coração da tecnologia. 💪✨</p>
+  </section>
+
+  <main>
+    <div class="gallery">
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Ada_Lovelace_Chalon_portrait.jpg" alt="Ada Lovelace">
+        <div class="info">
+          <h2>Ada Lovelace</h2>
+          <p>1815 — 1852</p>
+          <button class="btn" onclick="showBio('ada')">Saiba Mais</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Grace_Hopper.jpg" alt="Grace Hopper">
+        <div class="info">
+          <h2>Grace Hopper</h2>
+          <p>1906 — 1992</p>
+          <button class="btn" onclick="showBio('grace')">Saiba Mais</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8e/Hedy_Lamarr_1945_publicity.jpg" alt="Hedy Lamarr">
+        <div class="info">
+          <h2>Hedy Lamarr</h2>
+          <p>1914 — 2000</p>
+          <button class="btn" onclick="showBio('hedy')">Saiba Mais</button>
+        </div>
+      </div>
+    </div>
+
+    <p class="quote">“Elas não apenas escreveram códigos, mas também escreveram história.” 💻✨</p>
+  </main>
+
+  <footer>
+    Feito com 🧡 e admiração por mulheres que inspiram o futuro.  
+    <br>Imagens de domínio público — <a href="https://commons.wikimedia.org/" target="_blank">Wikimedia Commons</a>.
+  </footer>
+
+  <script>
+    function showBio(name) {
+      const bios = {
+        ada: "Ada Lovelace foi a primeira programadora da história. Visionária, ela criou o primeiro algoritmo e imaginou máquinas que fariam mais do que cálculos — elas poderiam criar arte, música e muito mais.",
+        grace: "Grace Hopper criou o primeiro compilador e ajudou a desenvolver o COBOL. Seu trabalho tornou a programação mais acessível e transformou o mundo da computação moderna.",
+        hedy: "Hedy Lamarr, atriz e inventora, desenvolveu um sistema de comunicação que se tornou a base para o Wi-Fi, Bluetooth e GPS — uma verdadeira mente brilhante por trás da beleza de Hollywood."
+      };
+      alert(bios[name]);
+    }
+  </script>
+
+</body>
+</html>
