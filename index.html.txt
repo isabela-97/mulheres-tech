@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mulheres que Mudaram a História da Tecnologia</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>💻 Mulheres que Mudaram a História da Tecnologia</h1>
+  </header>
+
+  <section class="intro">
+    <p>
+      A tecnologia que conhecemos hoje só existe graças à genialidade e à
+      coragem de mulheres que desafiaram seu tempo e abriram portas para o
+      futuro. <strong>Ada Lovelace</strong>, no século XIX, foi uma verdadeira
+      visionária — ela escreveu o primeiro algoritmo da história, se tornando a
+      primeira programadora do mundo e imaginando que as máquinas poderiam fazer
+      muito mais do que simples cálculos.
+    </p>
+
+    <p>
+      Anos depois, <strong>Grace Hopper</strong> mostrou que a programação podia
+      ser compreendida por todos. Criou o primeiro compilador, que traduziu a
+      linguagem humana para a linguagem dos computadores, e ajudou a desenvolver
+      o COBOL, uma das linguagens mais usadas até hoje. Seu trabalho transformou
+      a forma como interagimos com a tecnologia.
+    </p>
+
+    <p>
+      E quem diria que uma estrela de cinema também mudaria o mundo digital?
+      <strong>Hedy Lamarr</strong>, além de brilhar em Hollywood, inventou um
+      sistema de comunicação que se tornou a base do Wi-Fi, do Bluetooth e do
+      GPS.
+    </p>
+
+    <p>
+      Essas três mulheres incríveis provaram que criatividade, curiosidade e
+      coragem podem mudar o mundo — e que o lugar da mulher é onde ela quiser,
+      inclusive no coração da tecnologia. 💪✨
+    </p>
+  </section>
+
+  <section class="gallery">
+    <div class="card">
+      <img src="images/ada.jpg" alt="Ada Lovelace" />
+      <h2>Ada Lovelace</h2>
+      <p>(1815 – 1852)</p>
+    </div>
+    <div class="card">
+      <img src="images/grace.jpg" alt="Grace Hopper" />
+      <h2>Grace Hopper</h2>
+      <p>(1906 – 1992)</p>
+    </div>
+    <div class="card">
+      <img src="images/hedy.jpg" alt="Hedy Lamarr" />
+      <h2>Hedy Lamarr</h2>
+      <p>(1914 – 2000)</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 - Inspirado por mulheres que mudaram o mundo da tecnologia 💻</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
